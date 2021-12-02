@@ -1,0 +1,23 @@
+#add-currency {
+  white-space: normal;
+
+  .btn-text {
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+}
+
+#add-currency-form {
+  display: flex;
+  flex-wrap: wrap;
+
+  select {
+    flex: 8;
+    max-width: 100%;
+  }
+
+  #submit-btn {
+    flex: 2;
+    margin: 2px;
+  }
+}
